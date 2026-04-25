@@ -54,8 +54,17 @@ A fully functional Active Directory home lab built using Oracle VirtualBox, Wind
 - Configured two network adapters on the Server:
   - **Adapter 1:** NAT (for internet access)
   - **Adapter 2:** Internal Network (for client communication)
+  - Screenshot of Server (DC) Setup
+  <img width="1919" height="1017" alt="DC network setup" src="https://github.com/user-attachments/assets/e00f9835-7a0d-4aaa-872b-4c897a472d68" />
+
+  <img width="1486" height="1049" alt="DC - Setup" src="https://github.com/user-attachments/assets/355abbe4-4731-4c78-bad1-61182fe362e0" />
+
+
 - Configured one network adapter on the Client:
   - **Adapter 1:** Internal Network (same as server's Adapter 2)
+  - Screenshot of Client Setup
+<img width="1919" height="1017" alt="Client network setup" src="https://github.com/user-attachments/assets/d44d3339-c465-43bb-90da-42095f1c95a9" />
+
 
 ### 2. Windows Server 2019 Installation
 - Installed Windows Server 2019
@@ -93,7 +102,6 @@ A fully functional Active Directory home lab built using Oracle VirtualBox, Wind
 - Set network adapter to **Internal Network**
 - Confirmed DHCP lease obtained from server
 - Joined the client to **mydomain.com**
-
 ---
 
 ## 🐛 Issues Encountered & Solutions
